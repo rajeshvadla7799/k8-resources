@@ -3,8 +3,7 @@ kind: Pod
 
 metadata:
   name: labels
-
-labels:
+  labels:
     project: roboshop
     component: frontend
     environment: dev
