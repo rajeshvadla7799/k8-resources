@@ -16,6 +16,6 @@ metadata:
       cpu: "100m"
 
   # hard limit
-    requests:
+    limits:
       memory: "128Mi" #Ram
       cpu: "150m"
