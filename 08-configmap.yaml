@@ -1,7 +1,9 @@
 apiversion: v1
 kind: Pod
+
 metadata:
   name: nginx-config
+  
 data:
   cource: "kubernetes"
   duration:  "15hrs"
