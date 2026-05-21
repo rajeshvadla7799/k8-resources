@@ -5,17 +5,18 @@ metadata:
   name: resources-demo
   namespace: roboshop
 
-  spec:
+spec:
   containers:
     - name: nginx
       image: nginx:1.14.2
-  resources:
-  # soft limit
-    requests:
-      memory: "64Mi" #Ram
-      cpu: "100m"
 
-  # hard limit
-    limits:
-      memory: "128Mi" #Ram
-      cpu: "150m"
+      resources:
+        # soft limit
+        requests:
+          memory: "64Mi"
+          cpu: "100m"
+
+        # hard limit
+        limits:
+          memory: "128Mi"
+          cpu: "150m"
