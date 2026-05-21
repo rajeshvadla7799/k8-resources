@@ -1,10 +1,10 @@
-apiversion: v1
-kind: Pod
+apiVersion: v1
+kind: ConfigMap
 
 metadata:
   name: nginx-config
 
 data:
-  cource: "kubernetes"
+  course: "kubernetes"
   duration: "15hrs"
   trainer: "siva kumar"
